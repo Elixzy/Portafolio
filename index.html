@@ -1,1 +1,191 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Ingeniería | [Tu Nombre]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span>Ing.</span> Elí Azael López López
+                </div>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elí Azael López López</h1>
+                <p>Estudiante de Ingeniería Electrónica con especialidad en telecomunicaciones con experiencia en desarrollo de prototipos de automatización basados en microcontroladores.</p>
+                <a href="#proyectos" class="btn">Ver mis proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src=images/me.jpg alt="Elí">
+                </div>
+                <div class="about-text">
+                    <h3>Ingeniero en Electrónica</h3>
+                    <p>Hola, soy Elí, Estudiante de Ingeniería en Electrónica, con experiencia en diseño e implementación de circuitos analógicos y digitales, uso de equipos de medición, dibujo 3D,manejo de maquinas CNC e impresoras 3D.</p>
+                    <p>Mi enfoque combina conocimientos teóricos con habilidades prácticas, lo que me ha permitido abordar proyectos desde la concepción hasta la implementación final.</p>
+                    
+                    <div class="skills">
+                        <h4>Habilidades Técnicas</h4>
+                        <div class="skills-list">
+                            <span class="skill">Fusion360</span>
+                            <span class="skill">SolidWorks</span>
+                            <span class="skill">GRBL</span>
+                            <span class="skill">MicroPython</span>
+                            <span class="skill">C, C++</span>
+                            <span class="skill">Gestión de Proyectos</span>
+                            <span class="skill">Diseño 3D</span>
+                            <span class="skill">Prototipado</span>
+                            <span class="skill">ESP32</span>
+                            <span class="skill">PCB</span>
+                            <span class="skill">EasyEDA</span>
+                            <span class="skill">CNC</span>
+                            <span class="skill">Impresión 3D</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+    
+                <div class="project-card" data-project-id="proyecto1">
+                    <div class="project-img">
+                        <img src="images/cnc.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Máquina CNC Láser</h3>
+                        <p>Diseño y construcción de una máquina CNC cartesiana basada en ESP32 con firmware de codigo abierto FluidNC.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Automatización</span>
+                            <span class="project-tag">CNC</span>
+                            <span class="project-tag">Impresión 3D</span>
+                            <span class="project-tag">Esp32</span>
+                            <span class="project-tag">Prototipado</span>
+                        </div>
+                        <a href="#" class="btn">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-project-id="proyecto2">
+                    <div class="project-img">
+                        <img src="images/rehab1.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Prototipo de rehabilitador de tobillo</h3>
+                        <p>Programación de prototipo de rehabilitador de tobillo basado en Esp32 utilizando ESP-IDF como framework para la programación en C++.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">ESP32</span>
+                            <span class="project-tag">C++</span>
+                            <span class="project-tag">IoT</span>
+                            <span class="project-tag">Prototipado</span>
+                        </div>
+                        <a href="#" class="btn">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-project-id="proyecto3">
+                    <div class="project-img">
+                        <img src="images/did1.jpg" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Prototipo de sistema hidráulico para el control de variables</h3>
+                        <p>Planeación, dirección e implementación de un sistema hidráulico didáctico enfocado al aprendizaje de conceptos relacionados a variables físicas presentes en procesos industriales.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">ESP32</span>
+                            <span class="project-tag">PCB</span>
+                            <span class="project-tag">Prototipado</span>
+                            <span class="project-tag">MicroPython</span>
+                        </div>
+                        <a href="#" class="btn">Ver detalles</a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project-id="proyecto4">
+                    <div class="project-img">
+                        <img src="" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Investigación sobre compensadores en adelanto aplicados a la modulación AM</h3>
+                        <p>Diseño de compensador en adelanto para un sistema de comunicación AM aplicando metodos experimentales de control moderno y utilizando herramientas de análisis de datos como MATLab.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Telecomunicaciones</span>
+                            <span class="project-tag">Control</span>
+                            <span class="project-tag">Investigación</span>
+                            <span class="project-tag">PCB</span>
+                            <span class="project-tag">MATLab</span>
+                        </div>
+                        <a href="#" class="btn">Ver detalles</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Elí. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/eli-azael-lopez-lopez-2a396936b"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Elixzy"><i class="fab fa-github"></i></a>
+                <a href="mailto:elop679@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div class="modal-body">
+      <div class="image-gallery">
+        <div class="main-image-container">
+          <img id="mainProjectImage" src="" alt="Imagen principal del proyecto">
+          <button class="gallery-nav prev-btn">&lt;</button>
+          <button class="gallery-nav next-btn">&gt;</button>
+        </div>
+        <div class="thumbnail-container" id="thumbnailContainer"></div>
+      </div>
+      
+      <div class="modal-text-content">
+        <h2 id="modalProjectTitle"></h2>
+        <div class="modal-tags" id="modalProjectTags"></div>
+        <div class="modal-description" id="modalProjectDescription"></div>
+        <div class="modal-details" id="modalProjectDetails"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
